@@ -5,9 +5,9 @@ Welcome to `Grocery Tracker` the app that tracks what you need and when you plac
 
 ## Environments
 
-### Server Side (Back end)
+### application
 
-This is a standalone api, in its own folder `server-side` that serves up a rest api with the following endpoints:
+`src/main/java` serves up a rest api with the following endpoints:
 
 - `localhost:8080/api/popular-items`: Will display all of the popular items in the database, to make adding to your grocery list easier the next time
 - `localhost:8080/api/items`: Will display all of the items you have added to your grocery list
@@ -17,11 +17,11 @@ This is a standalone api, in its own folder `server-side` that serves up a rest 
 
 ### Client Side (Front end)
 
-This is a single page JavaScript application built using parcel. The server will run at `localhost:1234`.
+This is a single page JavaScript application built using React. The server will run at `localhost:3000`.
 
 ## How to run this app
 
 - clone the application locally onto your machine
-- Using IntelliJ, navigate into `server-side` and open the Spring project, run the application file.
-- `cd` into `client-side` and run `npm install` to install all frontend dependencies
+- Using IntelliJ, navigate into `application` and open the Spring project, run the application file.
+- `cd` into `react-client`, open with VS Code and run `npm install` to install all frontend dependencies
 - Run the front end with `npm start`
